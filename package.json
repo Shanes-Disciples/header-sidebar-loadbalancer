@@ -1,0 +1,17 @@
+{
+  "name": "loadbalancer",
+  "version": "1.0.0",
+  "description": "Load Balancer for Header Sidebar service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js --ignore node_modules "
+  },
+  "author": "Brenden Pennington",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "git": "^0.1.5",
+    "nodemon": "^1.18.7",
+    "request": "^2.88.0"
+  }
+}
